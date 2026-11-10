@@ -54,6 +54,6 @@ Antes de tocar nada hice inventario del portátil, como se haría con un servido
 
 ## Pendiente
 
-- Acceso desde el iPad (Termius) con su propia clave.
-- Firewall (`ufw`): permitir solo SSH desde la red de casa.
+- Acceso desde el iPad (Termius) con su propia clave (una clave por dispositivo). Lo dejo para cuando monte el acceso desde fuera de casa, que es cuando tiene sentido.
+- ~~Firewall (`ufw`)~~ → hecho en [02 · Firewall](02-firewall-ufw.md).
 - IP fija cuando el portátil esté junto al router por cable.

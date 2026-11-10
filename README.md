@@ -28,12 +28,11 @@ Red: fibra 600 Mb (router Orange). El PC está lejos del router y sale por un re
 - [ ] **Fase 1 – Primer servidor Linux** (objetivo: antes de Navidad)
   - [x] Inventario del servidor (`hp-server`, Linux Mint 22.3 / base Ubuntu 24.04)
   - [x] Servidor SSH con acceso solo por clave desde el PC → [docs](docs/fase-1/01-ssh-con-claves.md)
-  - [ ] Acceso SSH desde el iPad
+  - [x] Firewall `ufw`: todo cerrado salvo SSH desde la red local → [docs](docs/fase-1/02-firewall-ufw.md)
   - [ ] Servidor junto al router con IP fija
-  - [ ] Firewall y endurecimiento básico
   - [ ] Docker y primeros servicios
   - [ ] Monitorización
-  - [ ] Acceso remoto seguro desde fuera de casa
+  - [ ] Acceso remoto seguro desde fuera de casa (incluido el iPad con su propia clave)
 - [ ] **Fase 2 – Llevarlo a AWS**: VPC, EC2, security groups, IAM, Terraform
 - [ ] **Fase 3 – Laboratorio de virtualización**: varias VMs, redes y subredes, router virtual, Kubernetes ligero, CI/CD
 
@@ -43,3 +42,4 @@ Red: fibra 600 Mb (router Orange). El PC está lejos del router y sale por un re
 |---|---|
 | 2026-11-10 | Fase 0: aseguré la cuenta de AWS y creé este repositorio. |
 | 2026-11-10 | Fase 1: instalé OpenSSH en el portátil, acceso por clave ed25519 y contraseñas desactivadas. |
+| 2026-11-10 | Fase 1: firewall `ufw` activo (deny entrante por defecto, SSH solo desde la LAN). |
