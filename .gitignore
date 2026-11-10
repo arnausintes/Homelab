@@ -1,0 +1,24 @@
+# --- Secretos: NUNCA al repositorio ---
+.env
+*.env
+*.pem
+*.key
+*.ppk
+id_rsa*
+id_ed25519*
+credentials
+*.credentials
+secrets/
+
+# --- Terraform (estado puede contener secretos) ---
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+crash.log
+
+# --- Sistema y editores ---
+Thumbs.db
+desktop.ini
+.DS_Store
+.vscode/
