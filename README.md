@@ -26,8 +26,10 @@ Red: fibra 600 Mb (router Orange). El PC está lejos del router y sale por un re
   - [x] Cuenta de AWS asegurada (MFA, usuario IAM, alerta de gasto) → [docs](docs/fase-0/01-aws-seguridad-cuenta.md)
   - [x] Repositorio de documentación
 - [ ] **Fase 1 – Primer servidor Linux** (objetivo: antes de Navidad)
+  - [x] Inventario del servidor (`hp-server`, Linux Mint 22.3 / base Ubuntu 24.04)
+  - [x] Servidor SSH con acceso solo por clave desde el PC → [docs](docs/fase-1/01-ssh-con-claves.md)
+  - [ ] Acceso SSH desde el iPad
   - [ ] Servidor junto al router con IP fija
-  - [ ] Acceso SSH con claves desde PC e iPad
   - [ ] Firewall y endurecimiento básico
   - [ ] Docker y primeros servicios
   - [ ] Monitorización
@@ -40,3 +42,4 @@ Red: fibra 600 Mb (router Orange). El PC está lejos del router y sale por un re
 | Fecha | Qué hice |
 |---|---|
 | 2026-11-10 | Fase 0: aseguré la cuenta de AWS y creé este repositorio. |
+| 2026-11-10 | Fase 1: instalé OpenSSH en el portátil, acceso por clave ed25519 y contraseñas desactivadas. |
